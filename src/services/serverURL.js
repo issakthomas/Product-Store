@@ -1,1 +1,1 @@
-export const serverURL = "http://localhost:4000/products";
+export const serverURL = "https://product-store-server.onrender.com/products";
