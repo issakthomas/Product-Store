@@ -1,0 +1,74 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+
+    span {
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: lightblue;
+    }
+
+    .products {
+        display: flex;
+        gap: 10px;
+
+        .box {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            width: 250px;
+            height: 300px;
+            transition: box-shadow .2s, scale .2s;
+            border: 1px solid;
+            border-radius: 5px;
+
+            &:hover {
+                box-shadow: 2px 2px 2px grey;
+                scale: 101%;
+            }
+
+            div {
+                padding: 10px;
+                color: white;
+                background-image: linear-gradient(to top, black, transparent);
+
+                h1 {
+                    font-size: 20px;
+                    margin: 0;
+                    padding-top: 50px;
+                }
+
+                p {
+                    margin: 0;
+                }
+            }
+
+            section {
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: right;
+                padding: 5px;
+                gap: 5px;
+
+                i {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.modalBody {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    input {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,42 @@
+.create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 80px;
+        border-radius: 5px;
+        background-color: lightblue;
+        box-shadow: 2px 2px 5px grey;
+        gap: 15px;
+
+        span {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        input {
+            width: 300px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px grey;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px grey;
+        }
+    }
+}
